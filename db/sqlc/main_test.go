@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	driverName     = "postgress"
+	driverName     = "postgres"
 	dataSourceName = "postgresql://postgres:Heilingspeir1@localhost:5432/bankingapp?sslmode=disable"
 )
 
