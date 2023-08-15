@@ -18,7 +18,7 @@ CREATE TABLE "transfers" (
   "from_account_id" bigint NOT NULL,
   "to_account_id" bigint NOT NULL,
   "amount" bigint NOT NULL,
-  "created_at" timestamp with time zone DEFAULT (now())
+  "created_at" timestamp with time zone NOT NULL DEFAULT (now())
 );
 
 CREATE INDEX ON "account" ("owner");
